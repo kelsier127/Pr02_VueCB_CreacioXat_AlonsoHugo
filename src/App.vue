@@ -1,22 +1,11 @@
 <script setup>
-import { reactive } from 'vue';
-import MissatgeComponent from './components/MissatgeComponent.vue'
+import XatPrincipal from './components/XatPrincipal.vue'
 
-let messageArray = reactive([])
-
-function recibir(missatge) {
-  console.log(missatge)
-
-  
-  messageArray.push(missatge)
-
-  console.log(messageArray)
-}
 </script>
 
 <template>
   <div>
-    <MissatgeComponent @enviar="recibir" />
+    <XatPrincipal/>
   </div>
 </template>
 

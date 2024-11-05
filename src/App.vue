@@ -9,4 +9,6 @@ import XatPrincipal from './components/XatPrincipal.vue'
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>
